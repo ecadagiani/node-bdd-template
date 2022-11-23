@@ -10,6 +10,8 @@ app.use(cors({
   origin: [process.env.FRONT_URL],
 }));
 
+app.use(express.json());
+
 app.use(router);
 
 app.listen(port, () => {

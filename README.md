@@ -36,3 +36,17 @@ Stop database: `npm run db:stop`
 Reset database: `npm run db:reset`
 
 The db is completed with sequelize ([./src/models/index.js]() `sync()`)
+
+## Dependancies
+- [express](https://www.npmjs.com/package/express)
+- [sequelize](https://www.npmjs.com/package/sequelize)
+- [cors](https://www.npmjs.com/package/cors)
+- [mysql2](https://www.npmjs.com/package/mysql2)
+- [dotenv](https://www.npmjs.com/package/dotenv)
+
+There is some good dependancies to use:
+- [lodash](https://www.npmjs.com/package/lodash)
+- [helmet](https://www.npmjs.com/package/helmet)
+- [bluebird](https://www.npmjs.com/package/bluebird)
+- [joi](https://www.npmjs.com/package/joi)
+- [express-joi-validator](https://www.npmjs.com/package/express-joi-validator)
